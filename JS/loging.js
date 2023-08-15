@@ -6,8 +6,8 @@ document.getElementById("btn-submit").addEventListener("click", function () {
     email === "fahadhossainbabor2002@gmail.com" &&
     password === "fahad#115530"
   ) {
-    console.log("Valid User");
+    window.location.href = "bank.html";
   } else {
-    console.log("Invalid User");
+    alert("Tui password bhule gesos");
   }
 });
